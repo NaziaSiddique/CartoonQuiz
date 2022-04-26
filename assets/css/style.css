@@ -232,8 +232,6 @@ section.features ul li.list1 {
 section.features ul li.list1 img {
   margin-right: 15px;
 }
-section.features ul li.list1 h4 {
-}
 
 section.features ul li.list2 {
   color: #fe0000;
@@ -241,16 +239,12 @@ section.features ul li.list2 {
 section.features ul li.list2 img {
   margin-left: 15px;
 }
-section.features ul li.list2 h4 {
-}
 
 section.features ul li.list3 {
   color: #371a46;
 }
 section.features ul li.list3 img {
   margin-right: 15px;
-}
-section.features ul li.list3 h4 {
 }
 
 section.features .featureImage {
