@@ -13,7 +13,7 @@ img {
     border-color: rgba(255,255,255,0.8);
 }
 
-/* Header menu starts here */
+/* header menu starts here */
 #main-header {
     position: relative;
     background-image: url(../images/assets/headerBg.png);
@@ -42,7 +42,7 @@ img {
     opacity: 0.8;
 }
 
-/* Banner section starts here */
+/* banner section starts here */
 section.banner {
     position: relative;
     padding: 120px 0 50px 0; 
@@ -50,32 +50,32 @@ section.banner {
 section.banner .row{
     align-items: center;
 }
-section.banner .iconImages #square-yellow {
+section.banner .iconImages #square_yellow {
     position: absolute;
     top: 60%;
     left: 10%;
 }
-section.banner .iconImages #circle-red {
+section.banner .iconImages #circle_red {
     position: absolute;
     top: 80%;
     left: 20%;
 }
-section.banner .iconImages #circle-black {
+section.banner .iconImages #circle_black {
     position: absolute;
     top: 40%;
     right: 10%;
 }
-section.banner .iconImages #square-yellow2 {
+section.banner .iconImages #square_yellow2 {
     position: absolute;
     top: 85%;
     right: 5%;
 }
 
-section.banner .banner-image {
+section.banner .banner_image {
     text-align: center;
     padding-top: 100px;
 }
-section.banner .banner-image img {
+section.banner .banner_image img {
     max-width: 400px;
 }
 section.banner .quote1 {
@@ -174,7 +174,7 @@ section.banner .avengers img {
 
 
 
-/* Footer starts here */
+/* footer starts here */
 footer {
     position: relative;
     background-image: url(../images/assets/footerBg.png);
@@ -303,7 +303,7 @@ footer .menu ul li a{
         top: 50px;
     }
     section.banner .avengers img,
-    section.banner .banner-image img {
+    section.banner .banner_image img {
         max-width: 100%;
     }
     section.banner {
@@ -343,25 +343,25 @@ footer .menu ul li a{
 }
 
 
-.info-box.activeInfo.activeInfo,
-.quiz-box.activeQuiz.activeQuiz,
-.result-box.activeResult.activeResult{
+.info_box.activeInfo,
+.quiz_box.activeQuiz,
+.result_box.activeResult{
     opacity: 1;
     z-index: 5;
     display: block;
     pointer-events: auto;
 }
-.start-btn {
+.start_btn {
     text-align: center;
 }
-.start-btn input {
+.start_btn input {
     display: inline-block;
 }
-.start-btn input.hide {
+.start_btn input.hide {
     display: none;
 
 }
-.start-btn input{
+.start_btn input{
     font-size: 25px;
     font-weight: 500;
     color: #371A46;
@@ -373,7 +373,7 @@ footer .menu ul li a{
     cursor: pointer;
 }
 
-.info-box{
+.info_box{
     display: none;
     width: 100%;
     border-radius: 5px;
@@ -382,7 +382,7 @@ footer .menu ul li a{
     transition: all 0.3s ease;
 }
 
-.info-box .info-title{
+.info_box .info-title{
     height: 60px;
     width: 100%;
     border-bottom: 1px solid #333;
@@ -394,20 +394,20 @@ footer .menu ul li a{
     font-weight: 600;
 }
 
-.info-box .info-list{
+.info_box .info-list{
     padding: 15px 30px;
 }
 
-.info-box .info-list .info{
+.info_box .info-list .info{
     margin: 5px 0;
     font-size: 17px;
 }
 
-.info-box .info-list .info span{
+.info_box .info-list .info span{
     font-weight: 600;
     color: #371A46;
 }
-.info-box .buttons{
+.info_box .buttons{
     height: 60px;
     display: flex;
     align-items: center;
@@ -417,7 +417,7 @@ footer .menu ul li a{
     padding-top: 20px;
 }
 
-.info-box .buttons button{
+.info_box .buttons button{
     margin: 0 5px;
     height: 40px;
     width: 136px;
@@ -431,7 +431,7 @@ footer .menu ul li a{
     transition: all 0.3s ease;
 }
 
-.quiz-box{
+.quiz_box{
     display: none;
     width: 100%;
     border-radius: 5px;
@@ -440,7 +440,7 @@ footer .menu ul li a{
     transition: all 0.3s ease;
 }
 
-.quiz-box header{
+.quiz_box header{
     position: relative;
     z-index: 2;
     height: 70px;
@@ -453,12 +453,12 @@ footer .menu ul li a{
     box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
 }
 
-.quiz-box header .title{
+.quiz_box header .title{
     font-size: 20px;
     font-weight: 600;
 }
 
-.quiz-box header .timer{
+.quiz_box header .timer{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
@@ -471,13 +471,13 @@ footer .menu ul li a{
     width: 145px;
 }
 
-.quiz-box header .timer .time-left-txt{
+.quiz_box header .timer .time_left_txt{
     font-weight: 400;
     font-size: 17px;
     user-select: none;
 }
 
-.quiz-box header .timer .timer-sec{
+.quiz_box header .timer .timer_sec{
     font-size: 18px;
     font-weight: 500;
     height: 30px;
@@ -491,28 +491,30 @@ footer .menu ul li a{
     user-select: none;
 }
 
-.quiz-box header .time-line{
+.quiz_box header .time_line{
     position: absolute;
     bottom: 0px;
     left: 0px;
     height: 3px;
     background: #371A46;
 }
+textarea {
+    min-height: 100px;
+}
 
 
-
-section .que-text{
+section .que_text{
     font-size: 25px;
     font-weight: 600;
     padding-top: 20px;
 }
 
-section .option-list{
+section .option_list{
     padding: 20px 0px;
     display: block;   
 }
 
-section .option-list .option{
+section .option_list .option{
     background: aliceblue;
     border: 1px solid #84c5fe;
     border-radius: 5px;
@@ -526,33 +528,33 @@ section .option-list .option{
     justify-content: space-between;
 }
 
-section .option-list .option:last-child{
+section .option_list .option:last-child{
     margin-bottom: 0px;
 }
 
-section .option-list .option:hover{
+section .option_list .option:hover{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
-section .option-list .option.correct{
+section .option_list .option.correct{
     color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
 
-section .option-list .option.incorrect{
+section .option_list .option.incorrect{
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 
-section .option-list .option.disabled{
+section .option_list .option.disabled{
     pointer-events: none;
 }
 
-section .option-list .option .icon{
+section .option_list .option .icon{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -563,13 +565,13 @@ section .option-list .option .icon{
     transition: all 0.3s ease;
     line-height: 24px;
 }
-.option-list .option .icon.tick{
+.option_list .option .icon.tick{
     color: #23903c;
     border-color: #23903c;
     background: #d4edda;
 }
 
-.option-list .option .icon.cross{
+.option_list .option .icon.cross{
     color: #a42834;
     background: #f8d7da;
     border-color: #a42834;
@@ -585,17 +587,17 @@ section .option-list .option .icon{
     background: none;
 }
 
-footer .total-que span{
+footer .total_que span{
     display: flex;
     user-select: none;
 }
 
-footer .total-que span p{
+footer .total_que span p{
     font-weight: 500;
     padding: 0 5px;
 }
 
-footer .total-que span p:first-child{
+footer .total_que span p:first-child{
     padding-left: 0px;
 }
 
@@ -628,7 +630,7 @@ footer button.show{
     transform: scale(1);
 }
 
-.result-box{
+.result_box{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
@@ -642,22 +644,22 @@ footer button.show{
     display: none;
 }
 
-.result-box.activeResult{ 
+.result_box.activeResult{ 
     display: flex;
 }
 
-.result-box .icon{
+.result_box .icon{
     font-size: 100px;
     color: #371A46;
     margin-bottom: 10px;
 }
 
-.result-box .complete-text{
+.result_box .complete_text{
     font-size: 20px;
     font-weight: 500;
 }
 
-.result-box .score-text span{
+.result_box .score_text span{
     display: flex;
     margin: 10px 0;
     font-size: 18px;
@@ -665,17 +667,17 @@ footer button.show{
     text-align: center;
 }
 
-.result-box .score-text span p{
+.result_box .score_text span p{
     padding: 0 4px;
     font-weight: 600;
 }
 
-.result-box .buttons{
+.result_box .buttons{
     display: flex;
     margin: 20px 0;
 }
 
-.result-box .buttons button{
+.result_box .buttons button{
     margin: 0 10px;
     height: 45px;
     padding: 0 20px;
