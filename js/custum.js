@@ -162,7 +162,7 @@ continue_btn.onclick = ()=>{
     startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue =  10;
+let timeValue =  15;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
