@@ -280,67 +280,7 @@ footer .menu ul li a{
         float: right;
     }
 }
-@media screen and (max-width: 991px) {
-    section.banner .row {
-        flex-direction: column-reverse;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    #main-header .navbar-brand {
-        left: 7.5%;
-    }
-    footer .navbar-brand {
-        left: 9%;
-        bottom: 61px;
-    }
-    footer .navbar-brand img {
-        width: 76%;
-    }
-    footer .menu {
-        margin-right: 0;
-        position: relative;
-        top: 50px;
-    }
-    section.banner .avengers img,
-    section.banner .banner_image img {
-        max-width: 100%;
-    }
-    section.banner {
-        padding-bottom: 200px;
-    }
-}
-@media screen and (max-width: 600px) {
-    #main-header .navbar-brand {
-        left: 9.5%;
-    }
-    footer .navbar-brand {
-        left: 12%;
-        bottom: 52px;
-    }
-}
-@media screen and (max-width: 480px) {
-    #main-header .navbar-brand {
-        left: 15.5%;
-    }
-    footer .menu ul li {
-        margin-right: 20px;
-    }
-    footer .menu ul li a {
-        font-size: 16px;
-    }
-    footer .navbar-brand img {
-        width: 72%;
-    }
-}
-@media screen and (max-width: 420px) {
-    #main-header .navbar-brand img {
-        width: 90%;
-    }
-    footer .navbar-brand img {
-        width: 85%;
-    }
-}
 
 
 .info_box.activeInfo,
@@ -633,7 +573,7 @@ footer button.show{
 .result_box{
     border-radius: 5px;
     display: flex;
-    padding: 25px 30px;
+    padding: 25px 0px;
     width: 100%;
     align-items: center;
     flex-direction: column;
@@ -657,10 +597,12 @@ footer button.show{
 .result_box .complete_text{
     font-size: 20px;
     font-weight: 500;
+    color: #371A46;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .result_box .score_text span{
-    display: flex;
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
@@ -670,6 +612,10 @@ footer button.show{
 .result_box .score_text span p{
     padding: 0 4px;
     font-weight: 600;
+    font-size: 22px;
+}
+.result_box .score_text span p span{
+    font-size: 30px;
 }
 
 .result_box .buttons{
@@ -708,4 +654,72 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #371A46;
+}
+@media screen and (max-width: 991px) {
+    section.banner .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-header .navbar-brand {
+        left: 7.5%;
+    }
+    footer .navbar-brand {
+        left: 9%;
+        bottom: 61px;
+    }
+    footer .navbar-brand img {
+        width: 76%;
+    }
+    footer .menu {
+        margin-right: 0;
+        position: relative;
+        top: 50px;
+    }
+    section.banner .avengers img,
+    section.banner .banner_image img {
+        max-width: 100%;
+    }
+    section.banner {
+        padding-bottom: 200px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #main-header .navbar-brand {
+        left: 9.5%;
+    }
+    footer .navbar-brand {
+        left: 12%;
+        bottom: 52px;
+    }
+    .result_box .buttons button {
+        font-size: 15px;
+    }
+    section.banner .quizBlock {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #main-header .navbar-brand {
+        left: 15.5%;
+    }
+    footer .menu ul li {
+        margin-right: 20px;
+    }
+    footer .menu ul li a {
+        font-size: 16px;
+    }
+    footer .navbar-brand img {
+        width: 72%;
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    #main-header .navbar-brand img {
+        width: 90%;
+    }
+    footer .navbar-brand img {
+        width: 85%;
+    }
 }

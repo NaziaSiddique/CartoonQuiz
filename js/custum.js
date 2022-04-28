@@ -292,31 +292,31 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 9){ // if user scored more than 9
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>Congratulations, A Perfect Score! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>Congratulations, A Perfect Score! 🎉,</p> <p>You got <span>'+ userScore +'</span>out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 8){ // if user scored more than 1
-        let scoreTag = '<span>Congratulations, Near Perfect Score! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>Congratulations, Near Perfect Score! 🎉,</p> <p> You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 6){ // if user scored more than 1
-        let scoreTag = '<span>Close, But Not Close Enough! 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>Close, But Not Close Enough! 😎,</p><p> You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 4){ // if user scored more than 1
-        let scoreTag = '<span>Well Done, At-least, You are Half Way There! 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>Well Done, At-least, You are Half Way There! 😎,</p> <p>You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 2){ // if user scored more than 1
-        let scoreTag = '<span>You Clearly Do not Know Your Cartoons! 😐, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>You Clearly Do not Know Your Cartoons! 😐,</p> <p>You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore > 0){ // if user scored more than 1
-        let scoreTag = '<span>Erm.. Have You Ever Watched Any Cartoons?! 😐, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>Erm.. Have You Ever Watched Any Cartoons?! 😐,</p><p> You got <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>I Have No Words To Describe This Score! 😐, You got only <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span><p>I Have No Words To Describe This Score! 😐,</p> <p>You got only <span>'+ userScore +'</span> out of <span>'+ questions.length +'</span></p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
