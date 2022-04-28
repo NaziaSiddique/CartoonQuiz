@@ -2,118 +2,120 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "How many 'Hotel Tranylvania' movies are there?",
+    answer: "4",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "3",
+      "4",
+      "5",
+      "6"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "In the Lion King, who does Simba marry?",
+    answer: "Nala",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Nila",
+      "Nirala",
+      "Nala",
+      "Nilima"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "In Kung Fu Panda, what is written in the Dragon Scroll?",
+    answer: "Nothing",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Secret to unlimited power",
+      "Secret of the Universe",
+      "Secret to inner peace",
+      "Nothing"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "In Ice Age, What is the name of the hilarious squirrel-rat?",
+    answer: "Scrat",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Stan",
+      "Skit",
+      "Scrat",
+      "Scrap"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "In Beauty and the Beast, what colour is the beast's cape?",
+    answer: "Blue",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Blue",
+      "Red",
+      "Purple",
+      "Green"
     ]
   },
   
 
      {
      numb: 6,
-     question: "Your Question is Here",
-     answer: "Option 1",
+     question: "What does Aladdin give Jasmine during the song 'A Whole New World'?",
+     answer: "Apple",
      options: [
-       "Option 1",
-       "option 2",
-       "option 3",
-       "option 4"
+       "Grapes",
+       "Apple",
+       "Kiss",
+       "Ring"
     ]
    },
    {
      numb: 7,
-     question: "Your Question is Here",
-     answer: "Option 1",
+     question: "What did the Lady and the Tramp share for dinner?",
+     answer: "Spaghetti",
      options: [
-       "Option 1",
-       "option 2",
-       "option 3",
-       "option 4"
+       "Pizza",
+       "Pasta",
+       "Carbonarra",
+       "Spaghetti"
     ]
    },
    {
      numb: 8,
-     question: "Your Question is Here",
-     answer: "Option 1",  
+     question: "In the movie Shrek, in the beginning of the movie, what does Shrek put in his drink?",
+     answer: "Eyeball",  
      options: [
-       "Option 1",
-       "option 2",
-       "option 3",
-       "option 4"
+       "Eyeball",
+       "Spider",
+       "Worms",
+       "Ear Wax"
     ]
    },
    {
      numb: 9,
-     question: "Your Question is Here",
-     answer: "Option 1",
+     question: "In Monsters Inc, Who is Mike's partner when he goes on the field trip while he is a kid?",
+     answer: "Mrs Graves",
      options: [
-       "Option 1",
-       "option 2",
-       "option 3",
-       "option 4"
+       "Sully",
+       "Russel",
+       "Mrs Graves",
+       "Mrs Ghoul"
     ]
    },
    {
      numb: 10,
-     question: "Your Question is Here",
-     answer: "Option 1",
+     question: "In Nemo, What was the name of Marlin's wife and Nemo's mother?",
+     answer: "Coral",
      options: [
-       "Option 1",
-       "option 2",
-       "option 3",
-       "option 4"
+       "Pearl",
+       "Coral",
+       "Surf",
+       "Ariel"
     ]
    },
 ];
-//selecting all required elements
+
+//Selecting all required elements
+
 const name_field = document.querySelector(".quizBlock .form-group");
 const start_btn = document.querySelector(".start_btn input");
 const info_box = document.querySelector(".info_box");
@@ -141,6 +143,7 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 
 // if exitQuiz button clicked
+
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
     start_btn.classList.remove("hide"); //show start button
@@ -149,6 +152,7 @@ exit_btn.onclick = ()=>{
 }
 
 // if continueQuiz button clicked
+
 continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box
@@ -170,6 +174,7 @@ const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // if restartQuiz button clicked
+
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
@@ -189,6 +194,7 @@ restart_quiz.onclick = ()=>{
 }
 
 // if quitQuiz button clicked
+
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
 }
@@ -197,6 +203,7 @@ const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // if Next Que button clicked
+
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){ //if question count is less than total question length
         que_count++; //increment the que_count value
@@ -217,10 +224,12 @@ next_btn.onclick = ()=>{
 }
 
 // getting questions and options from array
+
 function showQuetions(index){
     const que_text = document.querySelector(".que_text");
 
     //creating a new span and div tag for question and option and passing the value using array index
+
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
@@ -232,15 +241,18 @@ function showQuetions(index){
     const option = option_list.querySelectorAll(".option");
 
     // set onclick attribute to all available options
+
     for(i=0; i < option.length; i++){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
 // creating the new div tags which for icons
+
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 //if user clicked on option
+
 function optionSelected(answer){
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
@@ -278,7 +290,7 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 9){ // if user scored more than 3
+    if (userScore > 9){ // if user scored more than 9
         //creating a new span tag and passing the user score number and total question number
         let scoreTag = '<span>and Congratulations, A Perfect Score! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
