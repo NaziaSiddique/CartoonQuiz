@@ -114,24 +114,108 @@ There are two pages on website, a Home page and a Contact Us page. Both pages fe
 
 ## Design
 
-jdkjs
+•	Imagery - The images that I chose were to complement the red/yellow/white colour scheme and also to reference some of the movie characters that are mentioned in the quiz questions. The overall effect is designed to look modern, fun, colourful, playful to adults and a younger audience. All UX features including the layout of the images, the game and the questions have been based on my own design work. 
+
+•	Colour Scheme -The colour scheme across the screens was kept simple and consistent, I chose a red, yellow and white palette, as I thought that’s what best suited the cartoon theme that I was going for. 
+
+
+•	Typography - Google Fonts were used to import the Bungee font into styles.css. I chose Bungee was the font as it was bold, big and had a cartoon like look, which I felt was relevant to the content of the website.
+
+•	Wireframes - Desktop Wireframes, Tablet Wireframes, Smartphone Wireframes
+
 
 
 ## Technologies Used
 
-dsjl
+Languages Used
+
+•	HTML5
+•	CSS3
+•	Javascript
+•	Bootstrap
+
+Frameworks, Libraries & Programs Used
+
+•	Google Fonts - was used to import the Bungee font 
+•	Google Images – this was used to obtain the character images used on the website
+•	Gitpod – Gitpod was used as the IDE to develop and code this website
+•	GitHub - is used as the repository for the projects code after being pushed from Gitpod
+•	BootstrapCDN - The website uses Bootstrap4 to simplify the structure and makes it mobile friendly and responsive
+•	Illustrator – this was used to design the website and the logo
+•	Balsamiq: was used to create the wireframes during the design process
+
+
 
 ## Testing
 
-skjd
 
 ## Deployment 
 
-skdjsk
+This project was built using Gitpod and pushed to GitHub using the in-built functionality to commit and push.
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1.	Log into GitHub
+2.	From the list of repositories on the screen, select NaziaSiddique/CartoonQuiz
+3.	From the menu items near the top of the page, select Settings
+4.	Scroll down to the GitHub Pages section
+5.	Under Source click the drop-down menu labelled None and select Main
+6.	By selecting Main the page is automatically refreshed and the website is now deployed
+7.	Scroll back down to the GitHub Pages section to retrieve the link to the deployed website
+
+How to run this project locally
+
+To clone this project into Gitpod you will need:
+
+1.	A Github account. Create a Github account here
+2.	Use the Chrome browser
+
+Then follow these steps:
+
+1.	Install the Gitpod Browser Extentions for Chrome
+2.	After installation, restart the browser
+3.	Log into Gitpod with your Gitpod account
+4.	Navigate to the Project GitHub repository
+5.	Click the green "Gitpod" button in the top right corner of the repository
+6.	This will trigger a new gitpod workspace to be created from the code in GitHub, where it can be worked on locally
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
+
+1.	Follow this link to the Project GitHub repository
+2.	Under the repository name, click "Clone or download"
+3.	In the Clone with HTTPs section, copy the clone URL for the repository
+4.	In your local IDE open the terminal
+5.	Change the current working directory to the location where you want the cloned directory to be made
+6.	Type git clone, and then paste the URL you copied in Step 3
+git clone https://github.com/USERNAME/REPOSITORY
+7.	Press Enter and your local clone will be created
+
+Further reading and troubleshooting on cloning a repository from GitHub [here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+
 
 ## Credits 
 
-dhsjkd
+Content
+•	The concept for all the questions of the quiz were inspired by my love and my children’s love of cartoons 
+
+•	The text was proof-read/edited by my children
+
+Media
+•	All the photos used in this site were obtained from google images
+Code
+•	All code on this website is my own
+
+
+Acknowledgements
+•	My inspiration for this website was from my own experience and love of cartoons having enjoyed many hours watching them as a child and then with my own children
+
+•	My mentor Brian Macharia helped and supported me by suggesting some ideas for the project
+
+Disclaimer
+
+•	The content of this website is for entertainment purposes only
+![image](https://user-images.githubusercontent.com/36114589/166067327-4e204f66-8863-4e57-b88c-25213b40585c.png)
+
 
 
 
