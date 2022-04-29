@@ -214,7 +214,7 @@ Acknowledgements
 Disclaimer
 
 •	The content of this website is for entertainment purposes only
-![image](https://user-images.githubusercontent.com/36114589/166067327-4e204f66-8863-4e57-b88c-25213b40585c.png)
+
 
 
 
