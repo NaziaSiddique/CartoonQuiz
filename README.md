@@ -83,9 +83,15 @@ As a user I want to be able to :
 
 ### Wireframe Mock-ups:
 
-•	Home
+•	**Home**
 
-•	Contact Us
+![HOME PAGE FINAL](https://user-images.githubusercontent.com/36114589/166068814-2209dba7-2126-4514-9cc7-057a1877ff45.png)
+
+
+•	**Contact Us**
+
+![CARTOON QUIZ contact](https://user-images.githubusercontent.com/36114589/166068839-03c8402d-0f49-4712-afa7-c5c797d89109.png)
+
 
 ## Features
 
@@ -221,9 +227,16 @@ Content
 •	The text was proof-read/edited by my children
 
 Media
-•	All the photos used in this site were obtained from google images
+•	All the photos used in this site were obtained from google images:
+
+Avengers
+https://logolook.net/avengers-logo/
+
+
+Kung Fu Panda & The Furious Five
+https://listofdeaths.fandom.com/wiki/Kung_Fu_Panda
 Code
-•	All code on this website is my own
+•	All code on this website (HTML, CSS & JS) is my own 
 
 
 Acknowledgements
