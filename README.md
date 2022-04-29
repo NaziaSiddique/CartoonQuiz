@@ -1,6 +1,11 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Nazia Siddique,
+
+# <h1 align="center">The Big Cartoon Quiz</h1>
+
+
+<img width="952" alt="Screenshot 2022-04-29 at 19 19 20" src="https://user-images.githubusercontent.com/36114589/166008115-38598a5a-a3d0-4bd0-961b-d5c48f217d4d.png">
+
+[View the live project here](https://naziasiddique.github.io/CartoonQuiz)
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
