@@ -46,25 +46,40 @@ The current questions on the quiz are well suited for players of any age and die
 The ‘ideal user’ for this website is:
 
 •	Users of any age with an interest in cartoons
+
 •	Users who want to test their cartoon quiz knowledge
+
 •	Users who want to challenge themselves and pass on quiz to others to see who gets the best score
+
 
 ### User Stories
 
 As a user I want to be able to :
 
 •	Easily understand the purpose of the website
+
 •	Have a nice, fun, colourful page to land on with images to give website a cartoon like look
+
 •	Be able to fill out a contact us form if I’m having issues or provide any sort of feedback
+
 •	Enter a username and play the quiz
+
 •	Understand the rules of the game to able to play
+
 •	Be able to play the game by answering the 10 questions on the quiz
+
 •	Easily navigate from one question to the next
+
 •	See a timer to indicate how much time is left to enter an answer
+
 •	Get feedback on whether the correct answer has been entered
+
 •	See the correct answer after attempting each question 
+
 •	Get feedback at the end of quiz and an overall score
+
 •	Have the option to retry the quiz to better my score
+
 
 ### Wireframe Mock-ups:
 
