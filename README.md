@@ -333,9 +333,14 @@ Code
 
 
 Acknowledgements
-•	My inspiration for this website was from my own experience and love of cartoons having enjoyed many hours watching them as a child and then with my own children
+•	My inspiration for this website was from my own experience and love of cartoons having enjoyed many hours watching them as a child and with my own children
+
+• My best friend, who was there day and night motivating me and taking care of everything else that was falling around me.
+
+• My colleagues from work who became my user testers for this project and finding spelling errors and bugs.
 
 •	My mentor Brian Macharia helped and supported me by suggesting some ideas for the project
+
 
 Disclaimer
 
