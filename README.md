@@ -28,12 +28,81 @@ The current questions on the quiz are well suited for players of any age and die
 ### Goals of the Website
 
 •	Fun, interactive cartoon quiz
+
 •	Entertainment for die-hard cartoon lovers
+
 •	Some challenging questions to get player’s competitive side going
 
 ### Customer Goals of the Website
 
 •	Clear, easy to navigate quiz
+
 •	Understand the rules of the quiz to be able to play
+
 •	Challenge themselves on their cartoon trivia
-![image](https://user-images.githubusercontent.com/36114589/166059649-d2d03de1-52a0-4d39-bf1d-3f572f13811d.png)
+
+## User Experience (UX)
+
+The ‘ideal user’ for this website is:
+
+•	Users of any age with an interest in cartoons
+•	Users who want to test their cartoon quiz knowledge
+•	Users who want to challenge themselves and pass on quiz to others to see who gets the best score
+
+### User Stories
+
+As a user I want to be able to :
+
+•	Easily understand the purpose of the website
+•	Have a nice, fun, colourful page to land on with images to give website a cartoon like look
+•	Be able to fill out a contact us form if I’m having issues or provide any sort of feedback
+•	Enter a username and play the quiz
+•	Understand the rules of the game to able to play
+•	Be able to play the game by answering the 10 questions on the quiz
+•	Easily navigate from one question to the next
+•	See a timer to indicate how much time is left to enter an answer
+•	Get feedback on whether the correct answer has been entered
+•	See the correct answer after attempting each question 
+•	Get feedback at the end of quiz and an overall score
+•	Have the option to retry the quiz to better my score
+
+### Wireframe Mock-ups:
+
+•	Home
+
+•	Contact Us
+
+## Features
+
+There are two pages on website, a Home page and a Contact Us page. Both pages feature the ‘The Big Cartoon Quiz’ logo on the top left-hand side of the page, as well as a red banner and a nav bar. The logo, menu bar and red banner are also displayed on the bottom of each page. Both pages also have same images of various cartoon characters displayed on the middle left of the page, as well as the bottom right. The images are all relevant to the contents of the quiz and really help the user understand the purpose of the website. 
+
+Home Page: the homepage of the website contains a logo image,  red banner, and navbar across the top and bottom. The logo image overlaps the nav bar and the red banner. The nav bar runs across the top with each button linking to a different page of the website and is fully responsive on both desktop mobile/tablet devices. The Home page also has two images featuring various cartoon characters. The quiz is located just below the red banner at the top right of the page. The quiz is incorporated on the Home page in a yellow box. The quiz itself 
+
+Contact Us Page:
+
+
+
+
+## Design
+
+jdkjs
+
+
+## Technologies Used
+
+dsjl
+
+## Testing
+
+skjd
+
+## Deployment 
+
+skdjsk
+
+## Credits 
+
+dhsjkd
+
+
+
