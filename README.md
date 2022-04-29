@@ -266,6 +266,7 @@ I also used: https://wave.webaim.org, the screenshots below show the errors befo
 <img width="952" alt="Screenshot 2022-04-29 at 19 19 20" src="https://user-images.githubusercontent.com/36114589/166069443-fc63fe00-d2e5-4019-a3c5-03749379a857.png">
 
 
+(I was unable to do the Jest testing due to the module being added quite late and not having enough time to test it. Have discussed and been advised, if ms2 is referred, to do the Jest testing then.)
 
 ## Deployment 
 
