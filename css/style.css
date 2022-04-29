@@ -42,43 +42,43 @@ img {
     opacity: 0.8;
 }
 
-/* banner section starts here */
-section.banner {
+/* banner  starts here */
+.banner {
     position: relative;
     padding: 120px 0 50px 0; 
 }
-section.banner .row{
+.banner .row{
     align-items: center;
 }
-section.banner .iconImages #square_yellow {
+.banner .iconImages #square_yellow {
     position: absolute;
     top: 60%;
     left: 10%;
 }
-section.banner .iconImages #circle_red {
+.banner .iconImages #circle_red {
     position: absolute;
     top: 80%;
     left: 20%;
 }
-section.banner .iconImages #circle_black {
+.banner .iconImages #circle_black {
     position: absolute;
     top: 40%;
     right: 10%;
 }
-section.banner .iconImages #square_yellow2 {
+.banner .iconImages #square_yellow2 {
     position: absolute;
     top: 85%;
     right: 5%;
 }
 
-section.banner .banner_image {
+.banner .banner_image {
     text-align: center;
     padding-top: 100px;
 }
-section.banner .banner_image img {
+.banner .banner_image img {
     max-width: 400px;
 }
-section.banner .quote1 {
+.banner .quote1 {
     position: absolute;
     left: 6%;
     top: 25%;
@@ -88,12 +88,12 @@ section.banner .quote1 {
     background-image: url(../images/assets/quote1Bg.png);
     background-size: cover;
 }
-section.banner .quote1 h3{
+.banner .quote1 h3{
     font-size: 24px;
     color: #fff;
     text-align: center;
 }
-section.banner .quote2 {
+.banner .quote2 {
     width: 300px;
     height: 175px;
     position: absolute;
@@ -104,23 +104,23 @@ section.banner .quote2 {
     background-image: url(../images/assets/quote2Bg.png);
     background-size: cover;
 }
-section.banner .quote2 h3{
+.banner .quote2 h3{
     font-size: 20px;
     color: #fff;
     text-align: center;
 }
 
-section.banner .form-group{
+.banner .form-group{
     margin-bottom: 30px;
     width: 100%;
 }
-section.banner .form-group.hide{
+.banner .form-group.hide{
     display: none;
 }
-section.banner .form-group:last-child{
+.banner .form-group:last-child{
     margin-bottom: 0;
 }
-section.banner .form-group .form-control {
+.banner .form-group .form-control {
     border: none;
     font-size: 20px;
     color: #000;
@@ -128,18 +128,18 @@ section.banner .form-group .form-control {
     padding: 15px;
     height: 55px;
 }
-section.banner .btn-submit {
+.banner .btn-submit {
     background-color: #371A46;
     border: 1px solid #371A46;
     color: #fff;
     padding: 15px 40px;
 }
-section.banner .btn-submit:hover {
+.banner .btn-submit:hover {
     background-color: transparent;
     color: #371A46;
 }
 
-section.banner .quizBlock{
+.banner .quizBlock{
     padding: 50px;
     background-color: #FFC600;
     min-height: 250px;
@@ -149,7 +149,7 @@ section.banner .quizBlock{
     justify-content: center;
     align-items: center;
 }
-section.banner .quizBlock form {
+.banner .quizBlock form {
     width: 100%;
 }
 .quizBlock .form-group {
@@ -163,10 +163,10 @@ section.banner .quizBlock form {
     bottom: -25px;
     left: 0;
 }
-section.banner .avengers {
+.banner .avengers {
     text-align: center;
 }
-section.banner .avengers img {
+.banner .avengers img {
     max-width: 600px;
 
 
@@ -220,10 +220,10 @@ footer .menu ul li a{
 
 /* Responsive media queries starts here */
 @media screen and (max-width: 1400px) {
-    section.banner .quote1 {
+    .banner .quote1 {
         left: 2%;
     }
-    section.banner .quote2 {
+    .banner .quote2 {
         right: 7%;
     }
 }
@@ -233,10 +233,10 @@ footer .menu ul li a{
     #main-header .navbar-brand img {
         width: 86%;
     }
-    section.banner .quote1 {
+    .banner .quote1 {
         top: 20%;
     }
-    section.banner .quote2 {
+    .banner .quote2 {
         top: 66%;
         right: 2%;
     }
@@ -246,7 +246,7 @@ footer .menu ul li a{
     footer .navbar-brand img {
         width: 81%;
     }
-    section.categories h2 {
+    .categories h2 {
         width: 370px;
         padding-top: 50px;
     }
@@ -255,9 +255,6 @@ footer .menu ul li a{
     }
 }
 @media screen and (max-width: 991px) {
-    section.infomation .infoImage {
-        position: relative;
-    }
     #main-header .navbar-brand {
         top: 30px;
     }
@@ -272,10 +269,10 @@ footer .menu ul li a{
         padding: 15px;
         z-index: 9;
     }
-    section.banner .quote1 {
+    .banner .quote1 {
         position: relative;
     }
-    section.banner .quote2 {
+    .banner .quote2 {
         position: relative;
         float: right;
     }
@@ -408,7 +405,7 @@ footer .menu ul li a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 160px;
 }
 
 .quiz_box header .timer .time_left_txt{
@@ -443,18 +440,18 @@ textarea {
 }
 
 
-section .que_text{
+.que_text{
     font-size: 25px;
     font-weight: 600;
     padding-top: 20px;
 }
 
-section .option_list{
+.option_list{
     padding: 20px 0px;
     display: block;   
 }
 
-section .option_list .option{
+.option_list .option{
     background: aliceblue;
     border: 1px solid #84c5fe;
     border-radius: 5px;
@@ -468,33 +465,33 @@ section .option_list .option{
     justify-content: space-between;
 }
 
-section .option_list .option:last-child{
+.option_list .option:last-child{
     margin-bottom: 0px;
 }
 
-section .option_list .option:hover{
+.option_list .option:hover{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
 }
 
-section .option_list .option.correct{
+.option_list .option.correct{
     color: #155724;
     background: #d4edda;
     border: 1px solid #c3e6cb;
 }
 
-section .option_list .option.incorrect{
+.option_list .option.incorrect{
     color: #721c24;
     background: #f8d7da;
     border: 1px solid #f5c6cb;
 }
 
-section .option_list .option.disabled{
+.option_list .option.disabled{
     pointer-events: none;
 }
 
-section .option_list .option .icon{
+.option_list .option .icon{
     height: 26px;
     width: 26px;
     border: 2px solid transparent;
@@ -656,7 +653,7 @@ footer button.show{
     background: #371A46;
 }
 @media screen and (max-width: 991px) {
-    section.banner .row {
+    .banner .row {
         flex-direction: column-reverse;
     }
 }
@@ -677,11 +674,11 @@ footer button.show{
         position: relative;
         top: 50px;
     }
-    section.banner .avengers img,
-    section.banner .banner_image img {
+    .banner .avengers img,
+    .banner .banner_image img {
         max-width: 100%;
     }
-    section.banner {
+    .banner {
         padding-bottom: 200px;
     }
 }
@@ -696,7 +693,7 @@ footer button.show{
     .result_box .buttons button {
         font-size: 15px;
     }
-    section.banner .quizBlock {
+    .banner .quizBlock {
         padding: 20px;
     }
 }
