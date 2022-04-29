@@ -96,6 +96,21 @@ As a user I want to be able to :
 
 ![QUIZ QUESTION E G](https://user-images.githubusercontent.com/36114589/166069741-fa8c34b7-aa60-4be6-9368-fed822a5bbb3.png)
 
+• **Rules Page**
+
+![Rules](https://user-images.githubusercontent.com/36114589/166069917-474c9c00-cfd0-42c6-a082-15d6aab4776e.png)
+
+• **Results Page**
+
+![FINAL PAGE](https://user-images.githubusercontent.com/36114589/166071003-3841ea5e-44a6-4b47-b8f3-cbc1665fe98e.png)
+
+• **Ipad**
+
+![IPAD](https://user-images.githubusercontent.com/36114589/166073239-410fc1d4-29c8-4928-a713-713b9a5a0c73.png)
+
+• **Iphone**
+
+![IPHONE](https://user-images.githubusercontent.com/36114589/166073252-efb46f14-0d08-4cc3-878b-78d944d5eaf2.png)
 
 ## Features
 
@@ -107,18 +122,41 @@ There are two pages on website, a Home page and a Contact Us page. Both pages fe
 
 **Existing Features**
 
-•	Header Logo - Exists on every page and allows all users to understand the concept of the website
+•	Header Logo - Exists on every page and allows all users to understand the concept of the website, which relates well back to the first user story which is to  understand the purpose of the website.
+
+
 
 •	Header/Footer Navigation Bar – Visible on every page and allows all users to easily navigate from page to page on the website and find what they are looking for quickly
 
+
+
 •	Quiz - This feature is available on the Home page, so users are easily able to insert their user name and start the quiz, easy navigation.
 
-•	Contact Us Form - Allows users to ask questions, and/or give feedback an suggestions. This will give me a chance to take user feedback into consideration when implementing future changes to the website. 
+•	Contact Us Form - Allows users to ask questions, and/or give feedback an suggestions. This will give me a chance to take user feedback into consideration when implementing future changes to the website. This is mentioned in the user stories.
 
+• The website overall looks fun and colourful which is what I wanted to create from the start.
+
+• A user would need to enter their username in order to be able to play the game.
+
+• Once a username is entered, the user would click on Start the Quiz and then the rules of the game show up so that the user is aware of how to play the game. Once the user has read and understood how to play the game, they click on 'Continue', which starts the Quiz and loads the first question.
+
+• The user is then faced with 10 questions one by one. 
+
+• 
 
 **Future Features Implementation**
 
 
+Store user scores
+
+• Currently the user is asked to enter a username but that is only used to make it seem personal. I would want to add functionality to use the username to address them when giving the results and to upload results for that user to the website so that the results could be compared against other player results, and the highest result can be displayed so that the user and others can try to beat the highest score.
+
+
+• Currently the 10 questions have been written out as one quiz, in the future, I would like to add multiple quizzes for different levels. Easy, Medium, Hard and Extremely Hard.
+
+• In the future, I would like to add functionality so that users can select which cartoon film they want to be quizzed on, or which cartoon character or even the which company, i.e Disney, Pixar, Disneyworks etc
+
+• In the future I would like to be able to save the users details, so that every time they return they can continue where they left off, play new quizzes, break more records, attempt to beat previous or new high scores.
 
 
 
