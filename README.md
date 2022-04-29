@@ -92,6 +92,10 @@ As a user I want to be able to :
 
 ![CARTOON QUIZ contact](https://user-images.githubusercontent.com/36114589/166068839-03c8402d-0f49-4712-afa7-c5c797d89109.png)
 
+• **Quiz Page**
+
+![QUIZ QUESTION E G](https://user-images.githubusercontent.com/36114589/166069741-fa8c34b7-aa60-4be6-9368-fed822a5bbb3.png)
+
 
 ## Features
 
