@@ -148,6 +148,26 @@ Frameworks, Libraries & Programs Used
 
 ## Testing
 
+I first tested this website on https://validator.w3.org/ 
+Initially there were some errors and warnings, regarding alt texts for images and using 'section' instead of a div in the index file, however, I removed these errors as can be seen in the screenshots below.
+
+<img width="1638" alt="Screenshot 2022-04-29 at 16 27 21" src="https://user-images.githubusercontent.com/36114589/166068133-27540fd6-5a41-496e-8069-87a878ce9969.png">
+
+<img width="1638" alt="Screenshot 2022-04-29 at 16 29 41" src="https://user-images.githubusercontent.com/36114589/166068159-7394ff3f-ea0a-496e-91e0-df1e675daf1c.png">
+
+I used Google Lighthouse to do further validation, as shown in the screenshots below.
+
+
+<img width="1638" alt="Screenshot 2022-04-29 at 17 01 50" src="https://user-images.githubusercontent.com/36114589/166068265-831dbb56-006f-4fea-89c4-e8bcd847c487.png">
+
+<img width="1638" alt="Screenshot 2022-04-29 at 17 05 33" src="https://user-images.githubusercontent.com/36114589/166068278-12c417d5-8e88-45cd-aa2d-4b4b92fdbd6e.png">
+
+I also used: https://wave.webaim.org, the screenshots below show the errors before I removed the main errors and after.
+
+<img width="1638" alt="Screenshot 2022-04-29 at 17 34 02" src="https://user-images.githubusercontent.com/36114589/166068532-a8bb9f40-4e47-4b24-a50a-4c0cfc54fc48.png">
+
+<img width="1638" alt="Screenshot 2022-04-29 at 19 09 50" src="https://user-images.githubusercontent.com/36114589/166068547-333a7f0a-30b1-4c14-902b-0944be89c628.png">
+
 
 ## Deployment 
 
