@@ -124,25 +124,71 @@ There are two pages on website, a Home page and a Contact Us page. Both pages fe
 
 •	Header Logo - Exists on every page and allows all users to understand the concept of the website, which relates well back to the first user story which is to  understand the purpose of the website.
 
+<img width="563" alt="Screenshot 2022-04-29 at 22 55 18" src="https://user-images.githubusercontent.com/36114589/166075097-272bba73-abbc-4f73-a750-b08537ee09e7.png">
 
 
 •	Header/Footer Navigation Bar – Visible on every page and allows all users to easily navigate from page to page on the website and find what they are looking for quickly
 
+<img width="1599" alt="Screenshot 2022-04-29 at 22 54 49" src="https://user-images.githubusercontent.com/36114589/166075162-3e1f44de-ab64-450f-8788-e58e91328bf0.png">
 
 
 •	Quiz - This feature is available on the Home page, so users are easily able to insert their user name and start the quiz, easy navigation.
 
+<img width="1638" alt="Screenshot 2022-04-29 at 19 09 50" src="https://user-images.githubusercontent.com/36114589/166075331-3f0b99a0-8fd8-4fa0-8ff8-5f6fe4f7e23d.png">
+
+
 •	Contact Us Form - Allows users to ask questions, and/or give feedback an suggestions. This will give me a chance to take user feedback into consideration when implementing future changes to the website. This is mentioned in the user stories.
+
+<img width="812" alt="Screenshot 2022-04-29 at 23 19 59" src="https://user-images.githubusercontent.com/36114589/166076027-35191cf7-b41f-4412-9264-ccbd3e47abcb.png">
+
 
 • The website overall looks fun and colourful which is what I wanted to create from the start.
 
+<img width="952" alt="Screenshot 2022-04-29 at 19 19 20" src="https://user-images.githubusercontent.com/36114589/166075426-efb3217d-1882-4be8-ab21-03c13268f0c9.png">
+
+
 • A user would need to enter their username in order to be able to play the game.
+
+<img width="857" alt="Screenshot 2022-04-29 at 22 52 27" src="https://user-images.githubusercontent.com/36114589/166075477-c68ae864-3350-4051-b2d9-e63259790a40.png">
 
 • Once a username is entered, the user would click on Start the Quiz and then the rules of the game show up so that the user is aware of how to play the game. Once the user has read and understood how to play the game, they click on 'Continue', which starts the Quiz and loads the first question.
 
+<img width="857" alt="Screenshot 2022-04-29 at 22 52 39" src="https://user-images.githubusercontent.com/36114589/166075525-b5653333-2168-48e2-8d06-bad277f8dd34.png">
+
 • The user is then faced with 10 questions one by one. 
 
-• 
+<img width="946" alt="Screenshot 2022-04-29 at 22 50 08" src="https://user-images.githubusercontent.com/36114589/166075555-043c1ca9-6234-4137-9831-441774fa854b.png">
+
+• Every Question has a timer of 15 seconds, this is shown counting down on the top right of the question box
+
+<img width="855" alt="Screenshot 2022-04-29 at 22 50 28" src="https://user-images.githubusercontent.com/36114589/166075659-1db950e4-5ce9-4ebd-b5f6-49b8783e69c1.png">
+
+• Whilst on the question page, you can see what question number you are on, out of the 10 questions
+
+<img width="187" alt="Screenshot 2022-04-29 at 22 50 50" src="https://user-images.githubusercontent.com/36114589/166075750-db17f82c-80fa-49f3-8924-902c323f9de1.png">
+
+• Once you have answered the question, you need to click on 'Next' to go to the next question.
+
+<img width="91" alt="Screenshot 2022-04-29 at 22 51 20" src="https://user-images.githubusercontent.com/36114589/166075853-f363ea36-089b-45ec-adb9-0b1277dcf206.png">
+
+• The questions are clearly written in a black bold font, so you can easily answer.
+
+<img width="778" alt="Screenshot 2022-04-29 at 22 51 40" src="https://user-images.githubusercontent.com/36114589/166075905-36c290ee-c479-47c7-afec-c1d903be2b1b.png">
+
+• If the user answers correctly, the answer is highlighted in green, alternatively if the user answers incorrectly, the selected answer is highlighted in red, highlighting the correct answer in green.
+
+<img width="950" alt="Screenshot 2022-04-29 at 23 22 52" src="https://user-images.githubusercontent.com/36114589/166076214-f42e4ce3-39f3-486b-8c20-126de0aba785.png">
+
+
+<img width="950" alt="Screenshot 2022-04-29 at 23 23 03" src="https://user-images.githubusercontent.com/36114589/166076222-ea84e503-595e-405f-8409-c3b069ef5e7e.png">
+
+• At the end of the quiz, the user is given the score to the quiz and a message is given depending on their score, below are just two examples.
+
+<img width="950" alt="Screenshot 2022-04-29 at 23 25 30" src="https://user-images.githubusercontent.com/36114589/166076383-d1cfff35-f4a7-4dc7-bd7d-b874f41d1458.png">
+
+<img width="950" alt="Screenshot 2022-04-29 at 23 24 43" src="https://user-images.githubusercontent.com/36114589/166076389-62a10eda-1d5b-4b6d-93c5-33dc34bb0dc6.png">
+
+• Users can Quit the quiz or replay the quiz, if they want to try again.
 
 **Future Features Implementation**
 
@@ -157,7 +203,6 @@ Store user scores
 • In the future, I would like to add functionality so that users can select which cartoon film they want to be quizzed on, or which cartoon character or even the which company, i.e Disney, Pixar, Disneyworks etc
 
 • In the future I would like to be able to save the users details, so that every time they return they can continue where they left off, play new quizzes, break more records, attempt to beat previous or new high scores.
-
 
 
 ## Design
