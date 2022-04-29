@@ -91,9 +91,23 @@ As a user I want to be able to :
 
 There are two pages on website, a Home page and a Contact Us page. Both pages feature the ‘The Big Cartoon Quiz’ logo on the top left-hand side of the page, as well as a red banner and a nav bar. The logo, menu bar and red banner are also displayed on the bottom of each page. Both pages also have same images of various cartoon characters displayed on the middle left of the page, as well as the bottom right. The images are all relevant to the contents of the quiz and really help the user understand the purpose of the website. 
 
-Home Page: the homepage of the website contains a logo image,  red banner, and navbar across the top and bottom. The logo image overlaps the nav bar and the red banner. The nav bar runs across the top with each button linking to a different page of the website and is fully responsive on both desktop mobile/tablet devices. The Home page also has two images featuring various cartoon characters. The quiz is located just below the red banner at the top right of the page. The quiz is incorporated on the Home page in a yellow box. The quiz itself 
+**Home Page**: the homepage of the website contains a logo image,  red banner, and navbar across the top and bottom. The logo image overlaps the nav bar and the red banner. The nav bar runs across the top with each button linking to a different page of the website and is fully responsive on both desktop mobile/tablet devices. The Home page also has two images featuring various cartoon characters. The quiz is located just below the red banner at the top right of the page. The quiz is incorporated on the Home page in a yellow box. The quiz itself 
 
-Contact Us Page:
+**Contact Us Page**: this page contains a logo image,  red banner, and navbar across the top and bottom. The logo image overlaps the nav bar and the red banner. The nav bar runs across the top with each button linking to a different page of the website and is fully responsive on both desktop mobile/tablet devices. This page has a 
+
+**Existing Features**
+
+•	Header Logo - Exists on every page and allows all users to understand the concept of the website
+
+•	Header/Footer Navigation Bar – Visible on every page and allows all users to easily navigate from page to page on the website and find what they are looking for quickly
+
+•	Quiz - This feature is available on the Home page, so users are easily able to insert their user name and start the quiz, easy navigation.
+
+•	Contact Us Form - Allows users to ask questions, and/or give feedback an suggestions. This will give me a chance to take user feedback into consideration when implementing future changes to the website. 
+
+
+**Future Features Implementation**
+
 
 
 
